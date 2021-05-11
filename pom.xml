@@ -21,6 +21,7 @@
         <infinispan.version>10.1.8.Final</infinispan.version>
         <resteasy.version>3.12.1.Final</resteasy.version>
         <postgresql>42.2.18</postgresql>
+        <projectlombok>1.18.20</projectlombok>
     </properties>
 
     <dependencies>
@@ -78,6 +79,11 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${postgresql}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${projectlombok}</version>
         </dependency>
     </dependencies>
 </project>
